@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada Espacial</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="Imagem de um diário antigo">
+            <p>Durante uma visita à biblioteca, você encontra um diário antigo que descreve uma missão espacial para encontrar um planeta habitável. O diário contém pistas para diferentes planetas que você deve explorar. Sua jornada começa agora!</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o Planeta Marte</button>
+            <button class="btn-proximo" data-proximo="2">Explorar o Planeta Vênus</button>
+        </div>
+        <!-- Adicione o restante das divs aqui -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
